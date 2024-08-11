@@ -28,6 +28,7 @@ body{
 
 img{
     display: block;
+    max-width: 100%;
 }
 
 a{
@@ -58,9 +59,17 @@ h1,h2,h3{
     grid-auto-flow: column;
 }
 
+.grid-col-2{
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .grid-space-between{
     justify-content: space-between;
+}
+
+.gap-16{
+    gap: 16px;
 }
 
 .container{
