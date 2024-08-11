@@ -47,3 +47,25 @@ ul{
 h1,h2,h3{
     font: inherit;
 }
+
+/* utility class */
+
+.grid{
+    display: grid
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+
+
+.grid-space-between{
+    justify-content: space-between;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 32px;
+}

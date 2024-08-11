@@ -1,0 +1,20 @@
+#primary {
+    padding: 20px 0;
+
+    ul{
+        align-items: center;
+        li:first-child,
+        li:last-child{
+            gap: 8px;
+        }
+    }
+}
+
+
+#secondary{
+    padding: 14px 0;
+    border: 1px solid var(--stroke-color);
+    border-left:0;
+    border-right: 0;
+    color: var(--text-color-secondary);
+}
