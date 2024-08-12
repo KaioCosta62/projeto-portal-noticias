@@ -50,58 +50,11 @@ h1,h2,h3{
     font: inherit;
 }
 
-/* utility class */
-
-.grid{
-    display: grid
-}
-
-.grid-flow-col{
-    grid-auto-flow: column;
-}
-
-.grid-col-2{
-    grid-template-columns: 1fr 1fr;
-}
-
-.grid-col-4{
-    grid-template-columns: repeat(4, 1fr);
-}
-
-
-.grid-space-between{
-    justify-content: space-between;
-}
-
-.gap-16{
-    gap: 16px;
-}
-
-.gap-32{
-    gap: 32px;
-}
-
 .container{
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 32px;
-}
-
-.text-2xl{
-    font: var(--h1);
-}
-
-.text-xl{
-    font: var(--h2);
-}
-
-.text-lg{
-    font: var(--h3);
-}
-
-.text-sm{
-    font: var(--text-sm);
 }
 
 .content-tag{
