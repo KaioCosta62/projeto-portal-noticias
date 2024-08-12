@@ -1,6 +1,7 @@
 #featured{
     margin-top: 40px;
     padding-bottom: 80px;
+    grid-area: featured;
 
     img{
         height: 100%;

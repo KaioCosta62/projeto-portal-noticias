@@ -1,0 +1,35 @@
+#ai{
+    grid-area: ai;
+    border-top: 1px solid var(--stroke-color);
+    img{
+        width: 176px;
+    }
+
+    h3{
+        margin: 8px 0 4px 0;
+    }
+
+    p{
+        color: var(--text-color-secondary);
+    }
+}
+
+aside{
+    grid-area: aside;
+    padding-bottom: 80px;
+    #more{
+        border-top: 1px solid var(--stroke-color);
+        margin-top: 32px;
+        img{
+            width: 72px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            
+        }
+        article{
+            span{
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
